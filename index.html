@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Zadanie_10_2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    	$(document).ready(function () {
+           
+            var span = $("span");
+    		
+    		span.each(function(index, element) {
+    			if(index % 2 == 0) {
+					$(element).css('color', 'red');
+				};	
+        	});
+
+        	$("span:odd").css('color', 'blue');
+    	
+    	});
+
+    </script>
+
+</head>
+<body>
+	<div>
+		<div>
+			<p><span>span 1</span></p>
+		</div>
+		<div>
+			<p>1</p>
+		</div>
+		<div>
+			<p><span>span 1</span></p>
+		</div>
+		<div>
+			<p>1</p>
+		</div>
+		<div>
+			<p><span>span 1</span></p>
+		</div>
+		<div>
+			<p>1</p>
+		</div>
+		<div>
+			<p><span>span 1</span></p>
+		</div>
+		<div>
+			<p>1</p>
+		</div>
+		<div>
+			<p><span>span 1</span></p>
+		</div>
+		<div>
+			<p>1</p>
+		</div>
+	</div>
+</body>
+</html>
